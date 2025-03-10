@@ -1,0 +1,124 @@
+.user-list-container {
+  h2 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #000000;
+    padding: 10px;
+  }
+
+  .user-list {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
+    .table-container {
+      width: 100%;
+      overflow-x: auto;
+      border-radius: 12px;
+    }
+
+    table {
+      width: 100%;
+      min-width: 600px;
+      border-collapse: collapse;
+      background-color: #fff;
+
+      th,
+      td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #e0e0e0;
+        white-space: nowrap;
+      }
+
+      th {
+        color: #000000;
+        text-transform: uppercase;
+      }
+
+      tbody tr:hover {
+        background-color: #eef4fa;
+      }
+
+      tbody tr:last-child td {
+        border-bottom: none;
+      }
+    }
+
+    p {
+      text-align: center;
+      color: #777;
+    }
+
+    @media (max-width: 450px) {
+      .user-list {
+        padding: 15px;
+      }
+
+      h2 {
+        text-align: center;
+        margin-left: 0;
+      }
+
+      th:nth-child(2),
+      th:nth-child(3),
+      th:nth-child(4),
+      td:nth-child(2),
+      td:nth-child(3),
+      td:nth-child(4) {
+        display: none;
+      }
+
+      table {
+        width: 100%;
+        min-width: 100%;
+      }
+
+      th,
+      td {
+        padding: 8px 10px;
+        font-size: 14px;
+      }
+    }
+
+    @media (min-width: 451px) and (max-width: 849px) {
+      .user-list {
+        padding: 15px;
+      }
+
+      h2 {
+        text-align: center;
+        margin-left: 0;
+      }
+
+      th:nth-child(3),
+      th:nth-child(4),
+      td:nth-child(3),
+      td:nth-child(4) {
+        display: none;
+      }
+
+      table {
+        width: 100%;
+        min-width: 100%;
+      }
+
+      th,
+      td {
+        padding: 8px 10px;
+        font-size: 14px;
+      }
+    }
+    @media (min-width: 850px) and (max-width: 1024px) {
+      th:nth-child(3) {
+        display: none;
+      }
+
+      td:nth-child(3) {
+        display: none;
+      }
+    }
+  }
+}
