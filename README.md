@@ -12,7 +12,6 @@ InfoHub is a simple web application built using **Vite React** with **Supabase**
 - **Vite** (React Framework)
 - **Supabase** (Database and Backend Services)
 - **SweetAlert2** (For user notifications and alerts)
-- **SCSS** (For styling)
 
 ## Usage
 1. **Add User**: Fill in the form fields and click the **Save User** button.
