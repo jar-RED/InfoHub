@@ -1,12 +1,20 @@
-# React + Vite
+# InfoHub Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+InfoHub is a simple web application built using **Vite React** with **Supabase** as the backend database. This application allows users to input and manage user data via a form interface, storing the information in Supabase and displaying it in a structured table view.
 
-Currently, two official plugins are available:
+## Features
+* User registration via a detailed form
+* Real-time data storage using Supabase
+* View, edit, and delete user information
+* Clean UI with intuitive navigation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **Vite** (React Framework)
+- **Supabase** (Database and Backend Services)
+- **SweetAlert2** (For user notifications and alerts)
+- **SCSS** (For styling)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Usage
+1. **Add User**: Fill in the form fields and click the **Save User** button.
+2. **View Users**: Click the **View Users** button to display stored user data.
+3. **Edit/Delete Users**: Use the edit and delete icons in the **Actions** column to modify or remove data.
